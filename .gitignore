@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env
+.env.local
+.dotvec-windows-ready
+npm-debug.log*
+.DS_Store
+.pnpm-store/
+dotvec-startup.log
+DOTVEC_DIAGNOSTICS.txt
+.dotvec-installed

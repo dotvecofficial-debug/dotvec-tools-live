@@ -1,0 +1,20 @@
+services:
+  dotvec-tools:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./private-cookies:/app/private-cookies:ro
+    environment:
+      YTDLP_COOKIES_FILE: ${YTDLP_COOKIES_FILE:-}
+      MAX_BACKEND_UPLOAD_MB: ${MAX_BACKEND_UPLOAD_MB:-750}
+      MAX_SOCIAL_DOWNLOAD_MB: ${MAX_SOCIAL_DOWNLOAD_MB:-1500}
+      MAX_PLAYLIST_ITEMS: ${MAX_PLAYLIST_ITEMS:-20}
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:size=6g,mode=1777

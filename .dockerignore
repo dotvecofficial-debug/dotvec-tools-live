@@ -1,0 +1,13 @@
+node_modules
+.next
+.pnpm-store
+tsconfig.tsbuildinfo
+*.log
+.env
+.env.local
+DOTVEC_DIAGNOSTICS.txt
+*.zip
+.git
+.gitignore
+private-cookies/*
+!private-cookies/README.txt

@@ -1,0 +1,23 @@
+DOTVEC TOOLS — ADMIN TOOL TEXT FIX
+
+This package is based directly on the working ZIP supplied by the user.
+
+Added per-tool admin fields:
+- Main action button text
+- Main action button color
+- Processing button text
+- Reset button text
+- Result section heading
+- Empty result message
+- Success message
+- Privacy / processing notice
+
+Where to edit:
+Admin Dashboard > Tools > select a tool
+
+The settings are saved separately for every individual tool page.
+
+Technical validation:
+- TypeScript check passed
+- Existing tools, CMS data, launchers and node_modules were preserved
+- No unrelated theme, route or CMS redesign was applied

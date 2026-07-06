@@ -1,0 +1,3 @@
+import { NextRequest, NextResponse } from 'next/server';
+import { createId, mutateStore } from '@/lib/store';
+export async function POST(req:NextRequest){const body=await req.json() as {toolSlug?:string;message?:string;stage?:string;browser?:string};if(!body.toolSlug||!body.message)return NextResponse.json({error:'Missing error information.'},{status:400});const item={id:createId('err'),toolSlug:body.toolSlug,message:String(body.message).slice(0,2000),stage:String(body.stage||'').slice(0,200),browser:String(body.browser||req.headers.get('user-agent')||'').slice(0,500),createdAt:new Date().toISOString(),status:'new' as const};await mutateStore(s=>{s.errors.unshift(item)});return NextResponse.json({ok:true,id:item.id})}

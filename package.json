@@ -1,0 +1,45 @@
+{
+  "name": "dotvec-tools",
+  "version": "2.3.0",
+  "private": true,
+  "engines": {
+    "node": ">=22 <27"
+  },
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "dependencies": {
+    "diff": "8.0.4",
+    "fast-xml-parser": "5.9.3",
+    "jszip": "3.10.1",
+    "lucide-react": "0.468.0",
+    "marked": "16.4.2",
+    "mathjs": "15.2.0",
+    "next": "16.2.10",
+    "papaparse": "5.5.4",
+    "pdf-lib": "1.17.1",
+    "pdfjs-dist": "5.7.284",
+    "qrcode": "1.5.4",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "sanitize-html": "2.17.5",
+    "tesseract.js": "6.0.1"
+  },
+  "devDependencies": {
+    "@types/diff": "7.0.2",
+    "@types/node": "22.20.0",
+    "@types/papaparse": "5.5.2",
+    "@types/qrcode": "1.5.6",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "@types/sanitize-html": "2.16.1",
+    "typescript": "5.9.3"
+  },
+  "overrides": {
+    "postcss": "8.5.10"
+  }
+}

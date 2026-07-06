@@ -1,0 +1,3 @@
+import { NextRequest, NextResponse } from 'next/server';
+import { createId, mutateStore } from '@/lib/store';
+export async function POST(req:NextRequest){const body=await req.json() as {toolSlug?:string;worked?:boolean;rating?:number;message?:string};if(!body.toolSlug)return NextResponse.json({error:'Missing tool.'},{status:400});const item={id:createId('fb'),toolSlug:body.toolSlug,worked:Boolean(body.worked),rating:body.rating,message:String(body.message||'').slice(0,2000),createdAt:new Date().toISOString(),status:'new' as const};await mutateStore(s=>{s.feedback.unshift(item)});return NextResponse.json({ok:true})}

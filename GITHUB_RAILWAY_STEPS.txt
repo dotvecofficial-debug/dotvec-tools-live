@@ -1,0 +1,13 @@
+DOTVEC TOOLS — GITHUB + RAILWAY
+
+1. Create an empty GitHub repository, for example: dotvec-tools-live.
+2. Upload the CONTENTS of this folder to the repository root.
+   package.json, Dockerfile, railway.json and src must be visible at repo root.
+3. Railway: New Project -> Deploy from GitHub Repo -> choose the repository.
+4. Before/after first deploy, add service Variables from .env.railway.example.
+5. Add a Volume mounted at /app/data.
+6. Service Settings -> Networking -> Generate Domain.
+7. Put that generated HTTPS domain in NEXT_PUBLIC_SITE_URL and redeploy.
+8. Test /api/health, homepage, /admin/login and a small browser tool.
+
+Do not upload node_modules, .next, .env.local or private cookies to GitHub.

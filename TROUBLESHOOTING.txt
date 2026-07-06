@@ -1,0 +1,30 @@
+DOTVEC TOOLS V6 - TROUBLESHOOTING
+
+WINDOW CLOSES OR WEBSITE DOES NOT OPEN
+- Extract the ZIP completely first.
+- Run START_DOTVEC.bat from the extracted project folder.
+- Keep the terminal window open.
+- Open the printed localhost address manually.
+
+PACKAGE INSTALLATION ERROR
+- Confirm internet access to https://registry.npmjs.org/.
+- Temporarily disable a proxy that rewrites npm traffic.
+- Close other Node.js terminals and run REPAIR_DOTVEC.bat.
+
+PORT 3000 IS BUSY
+- The launcher automatically searches ports 3000 through 3099.
+- Use the exact URL printed in the terminal.
+
+NATIVE SERVER TOOL DOES NOT WORK ON WINDOWS PREVIEW
+- This is expected for tools that need FFmpeg, Ghostscript, qpdf, LibreOffice, OCRmyPDF, Python or yt-dlp.
+- Deploy with the included Docker files on a Linux VPS.
+
+SOCIAL DOWNLOADER RETURNS PLATFORM ERROR
+- Confirm the URL is public and matches the selected platform.
+- Update/rebuild yt-dlp.
+- Configure authorized cookies when needed.
+- Some platforms block datacenter/VPS IPs.
+- DRM/private access is not bypassed.
+
+DIAGNOSTICS
+Run DIAGNOSE_DOTVEC.bat and inspect/share DOTVEC_DIAGNOSTICS.txt and dotvec-startup.log.

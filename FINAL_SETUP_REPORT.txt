@@ -1,0 +1,30 @@
+DOTVEC TOOLS COMPLETE CMS FIXED PACKAGE
+=======================================
+
+This is a complete replacement package based on the uploaded working V5 ZIP.
+No separate update patches are needed.
+
+Main fixes:
+- Duplicate admin route error removed permanently.
+- CMS pages are correctly located inside src/app/admin/(protected).
+- Professional CMS dashboard layout added.
+- Blog editor is connected to the existing JSON store and admin API.
+- Tool page editor is connected to the existing JSON store and admin API.
+- Global theme settings are saved permanently in data/store.json.
+- Get Started text/color and tool action button text/color can be changed per tool.
+- Raw backend JSON success output is replaced with readable result cards.
+- Safer port selection fixes EADDRINUSE errors.
+
+Start:
+1. Extract this ZIP.
+2. Open the single dotvec-tools-complete folder.
+3. Double-click START_DOTVEC.bat.
+4. Keep the terminal open.
+5. Open the URL shown in the terminal.
+
+Admin login:
+http://localhost:PORT/admin/login
+Email: admin@example.com
+Password: change-this-strong-password
+
+Change the password in .env.local before VPS deployment.

@@ -1,0 +1,15 @@
+DOTVEC TOOLS V6 - WINDOWS QUICK START
+
+1. Delete or ignore older Dotvec Tools folders.
+2. Right-click dotvec-tools-windows-v6.zip and choose Extract All.
+3. Move the extracted folder to C:\dotvec-tools-v6 when possible.
+4. Double-click START_DOTVEC.bat.
+5. Keep the terminal window open.
+6. On the first run, JavaScript packages download from https://registry.npmjs.org/.
+7. The browser opens automatically when the website is ready.
+
+Browser tools can be previewed and tested locally.
+PDF/video/audio/document/social tools that use native server software require Docker/VPS deployment.
+
+If installation was interrupted, run REPAIR_DOTVEC.bat.
+If an error remains, run DIAGNOSE_DOTVEC.bat and share DOTVEC_DIAGNOSTICS.txt.

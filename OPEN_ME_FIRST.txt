@@ -1,0 +1,15 @@
+DOTVEC TOOLS — FINAL CLEAN BUILD
+================================
+
+1. Delete or rename all older Dotvec project folders so you do not accidentally run them.
+2. Keep only this extracted folder: dotvec-tools-final-clean
+3. Double-click START_DOTVEC.bat
+4. Use the exact localhost URL shown in the terminal.
+5. Do not copy old CMS patches into this build.
+
+Admin login:
+/admin/login
+
+This build includes the corrected protected admin routes, CMS blog editor,
+tool editor, settings editor, error center, all registered tools, and a
+startup validation check that blocks malformed pages or duplicate routes.

@@ -1,0 +1,4 @@
+import { ToolDirectory } from '@/components/ToolDirectory';
+import { getEffectiveTools } from '@/lib/overrides';
+export const metadata={title:'VPS Server Tools',description:'Self-hosted heavy PDF, video, audio, document, SEO and social tools without paid processing APIs.'};
+export default async function Page(){const tools=(await getEffectiveTools()).filter(t=>t.processingMode==='server');return <main><section className="page-hero"><div className="container"><span className="eyebrow">VPS Server Tools</span><h1>Self-hosted VPS tools</h1><p className="section-copy">Heavy PDF, media, document, website analysis and social downloader tools powered by open-source binaries on your own VPS.</p></div></section><section className="section-sm"><div className="container"><ToolDirectory tools={tools}/></div></section></main>}

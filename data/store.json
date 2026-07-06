@@ -1,0 +1,91 @@
+{
+  "toolOverrides": {
+    "add-image-pdf": {
+      "status": "maintenance",
+      "maintenanceMessage": "Image overlay editor is being completed."
+    }
+  },
+  "posts": [
+    {
+      "id": "post_mr69pqfl_iosuvut",
+      "slug": "hyhowisdhi",
+      "title": "hy how r u",
+      "excerpt": "fdsgbdsdb",
+      "content": "## New article\n\nWrite helpful content here.agb",
+      "status": "published",
+      "category": "Guides",
+      "tags": [],
+      "author": "Dotvec Team",
+      "publishedAt": "2026-07-04T11:17:45.759Z",
+      "updatedAt": "2026-07-04T11:17:45.759Z",
+      "seoTitle": "h",
+      "metaDescription": "fdsgbdsdb",
+      "faqs": [],
+      "contentFormat": "markdown"
+    },
+    {
+      "id": "welcome",
+      "slug": "welcome-to-dotvec-tools",
+      "title": "Welcome to Dotvec Tools",
+      "excerpt": "A privacy-focused collection of free online utilities.",
+      "content": "## Welcome\n\nDotvec Tools processes supported files in your browser and offers optional VPS-powered tools for heavier jobs.",
+      "status": "published",
+      "category": "News",
+      "tags": [
+        "launch"
+      ],
+      "author": "Dotvec Team",
+      "publishedAt": "2026-07-02T00:00:00.000Z",
+      "updatedAt": "2026-07-02T00:00:00.000Z",
+      "seoTitle": "Welcome to Dotvec Tools",
+      "metaDescription": "Learn how Dotvec Tools provides free browser-based and VPS-powered utilities.",
+      "faqs": [],
+      "contentFormat": "markdown"
+    }
+  ],
+  "settings": {
+    "siteName": "Dotvec Tools",
+    "tagline": "Free tools that work in your browser",
+    "announcement": "100% free tools — no signup, no subscription and private browser processing.",
+    "announcementEnabled": true,
+    "contactEmail": "dotvecofficial@gmail.com",
+    "canonicalDomain": "http://localhost:3000",
+    "theme": {
+      "lightBackground": "#f7f8ff",
+      "lightSurface": "#ffffff",
+      "lightText": "#0f172a",
+      "lightPrimary": "#6366f1",
+      "lightSecondary": "#3882f6",
+      "lightAccent": "#06b6d4",
+      "darkBackground": "#06101e",
+      "darkSurface": "#0d1b2e",
+      "darkText": "#f8fbff",
+      "darkPrimary": "#8b5cf6",
+      "darkSecondary": "#3882f6",
+      "darkAccent": "#06b6d4",
+      "cardRadius": 18
+    }
+  },
+  "errors": [],
+  "feedback": [],
+  "activity": [
+    {
+      "id": "act_mr69q4kg_pqwtryv",
+      "action": "Blog published",
+      "target": "hyhowisdhi",
+      "createdAt": "2026-07-04T11:17:45.759Z"
+    },
+    {
+      "id": "act_mr69pydp_t2llsf8",
+      "action": "Blog draft saved",
+      "target": "hyhowisdhi",
+      "createdAt": "2026-07-04T11:17:37.740Z"
+    },
+    {
+      "id": "act_mr69pqfm_y0wja9e",
+      "action": "Blog draft saved",
+      "target": "hyhowisdhi",
+      "createdAt": "2026-07-04T11:17:27.441Z"
+    }
+  ]
+}
